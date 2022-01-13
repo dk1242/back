@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 module.exports = router;
 
-router.post('/facts', isLoggedIn, userCtrl.addFact);
+// router.post('/facts', isLoggedIn, userCtrl.addFact);
 
 // Insert this middleware for routes that require a logged in user
 function isLoggedIn(req, res, next) {
